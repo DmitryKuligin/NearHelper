@@ -1,5 +1,5 @@
-import Telegraf from 'telegraf';
-
+const dotenv 	= require('dotenv').config()
+const Telegraf	= require('telegraf') 
 const bot 		= new Telegraf('6842368538:AAE0ox_h9AqqBYVgw3e144FIh4Q_ZmGqDs4') 
 const nearApi 	= require('near-api-js') 			// near api
 const level  	= require('level') 					// on-disk key-value store
