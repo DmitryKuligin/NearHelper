@@ -1,10 +1,10 @@
 {
-    "name": "nearwatch",
+    "name": "nearhelper",
     "version": "1.0.0",
     "description": "",
-    "main": "bot.js",
+    "main": "Watcher.js",
     "scripts": {
-      "start": "node bot.js"
+      "start": "node Watcher.js"
     },
     "dependencies": {
       "telegraf": "^3.38.0",
