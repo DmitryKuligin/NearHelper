@@ -1,6 +1,6 @@
 const dotenv 	= require('dotenv').config()
 const Telegraf	= require('telegraf') 				// telegram bot api 
-const bot 		= new Telegraf(process.env.'6842368538:AAE0ox_h9AqqBYVgw3e144FIh4Q_ZmGqDs4') 
+const bot 		= new Telegraf(process.env.BOT_TOKEN) 
 const nearApi 	= require('near-api-js') 			// near api
 const level  	= require('level') 					// on-disk key-value store
 const accounts	= level('./accounts')
